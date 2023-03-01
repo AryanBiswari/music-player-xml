@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>My Playlist</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="playlist-header">
+            <h1 class="playlist-title">My Playlist</h1>
+            <p class="playlist-count" id="playlist-count"></p>
+        </div>
+        <ul class="playlist" id="playlist"></ul>
+    </div>
+
+    <div class="music-player">
+        <img alt="Song Cover" id="song-cover">
+        <div class="music-player-details">
+            <h2 class="music-player-title" id="song-title"></h2>
+            <p class="music-player-artist" id="song-artist"></p>
+        </div>
+        <div class="music-player-controls">
+            <div class="music-player-progress">
+                <div class="music-player-progress-bar"></div>
+            </div>
+            <!-- <span class="music-player-time" id="song-time">0:00</span> -->
+            <button id="previous"><i class="fas fa-backward"></i></button>
+            <button class="play-pause" id="play-pause"><i class="fas fa-play"></i></button>
+            <button id="next"><i class="fas fa-forward"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Add Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/757aa61d7c.js" crossorigin="anonymous"></script>
+    <!-- Add JavaScript code for music player -->
+</body>
+
+</html>

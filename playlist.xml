@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<music xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="playlist.xsd">
+  <track>
+    <name>Allah Duhai</name>
+    <artist>Amit Mishra</artist>
+    <album>RACE 3</album>
+    <duration>04:39</duration>
+    <images>images/race3.jpg</images>
+    <file>audios/Allah-Duhai-Hai(PagalWorld).mp3</file>
+  </track>
+  <track>
+    <name>Gallan Goodiyan</name>
+    <artist>Farhan Akhtar</artist>
+    <album>DIL DHADAKNE DO</album>
+    <duration>04:56</duration>
+    <images>images/dil.jpg</images>
+    <file>audios/Gallan Goodiyaan.mp3</file>
+  </track>
+</music>
