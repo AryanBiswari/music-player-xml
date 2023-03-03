@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>My Playlist</title>
 </head>
 
@@ -21,10 +22,12 @@
             <p class="music-player-artist" id="song-artist"></p>
         </div>
         <div class="music-player-controls">
-            <div class="music-player-progress">
-                <div class="music-player-progress-bar"></div>
-            </div>
-            <!-- <span class="music-player-time" id="song-time">0:00</span> -->
+            <div class="music-player-time">
+                <span id="song-current-time">0:00</span>
+                /
+                <span id="song-total-time">0:00</span>
+              </div>
+              
             <button id="previous"><i class="fas fa-backward"></i></button>
             <button class="play-pause" id="play-pause"><i class="fas fa-play"></i></button>
             <button id="next"><i class="fas fa-forward"></i></button>
